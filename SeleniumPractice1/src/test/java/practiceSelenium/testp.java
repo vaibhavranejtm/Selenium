@@ -3,7 +3,7 @@ package practiceSelenium;
 public class testp {
 	
 	public static void main(String[] args) {
-		System.out.println("selenium");
+		System.out.println("seleniumf");
 	}
 
 }
