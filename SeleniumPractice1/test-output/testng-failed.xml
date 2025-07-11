@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiceSelenium.Assignment4">
+      <class name="practiceSelenium.ChkBoxSelectionInTable">
         <methods>
-          <include name="test4"/>
+          <include name="BoxSelectionInTable"/>
         </methods>
-      </class> <!-- practiceSelenium.Assignment4 -->
+      </class> <!-- practiceSelenium.ChkBoxSelectionInTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
