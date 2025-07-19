@@ -31,7 +31,7 @@ public class ChkBoxSelectionInTable {
 			for (int j = 0; j < noOfCol; j++) {
 				int s = j + 1;
 				if (driver.findElement(By.xpath("//table[@id='productTable']//tr[" + r + "]/td[" + s + "]")).getText()
-						.equalsIgnoreCase("Laptop")  && driver.findElement(By.xpath("//table[@id='productTable']//tr[" + r + "]/td[ 3]")).getText()
+						.equalsIgnoreCase("Laptop") && driver.findElement(By.xpath("//table[@id='productTable']//tr[" + r + "]/td[ 3]")).getText()
 						.equalsIgnoreCase("$19.99") ) {
 
 					driver.findElement(By.xpath("//table[@id='productTable']//tr[" + r + "]/td[4]/input")).click();

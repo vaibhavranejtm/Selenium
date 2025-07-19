@@ -2,6 +2,7 @@ package practiceSelenium;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,7 +34,8 @@ public class JavaScriptAlerts {
 		
 		WebElement jsConfirm = driver.findElement(By.xpath("//li/button[@onclick=\"jsConfirm()\"]"));
 		jsConfirm.click();
-		driver.switchTo().alert().accept();
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
 		
 
 		WebElement jsPrompt = driver.findElement(By.xpath("//li/button[@onclick=\"jsPrompt()\"]"));
